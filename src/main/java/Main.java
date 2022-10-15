@@ -105,17 +105,17 @@ public class Main {
 
         System.out.println("\n\n\n");
 
-        for(Student s : studentsList){
-            System.out.println("\nStudent Name: " +s.getSName());
-            System.out.println("UserName: "+s.getSUserName());
+        for(Student s : studentsList) {
+            System.out.println("\nStudent Name: " + s.getSName());
+            System.out.println("UserName: " + s.getSUserName());
             System.out.println("Modules: ");
 
-            for(Modules mod : s.getModuleList()){
-                System.out.println(" =" +mod.getModName());
+            for (Modules mod : s.getModuleList()) {
+                System.out.println(" =" + mod.getModName());
             }
-            System.out.println("Courses: "+ s.getCourse().getCourseName());
-        }
 
+
+        }
 
     }
 
