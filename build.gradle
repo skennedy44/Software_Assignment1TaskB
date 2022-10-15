@@ -15,7 +15,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.9.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.9.0'
     implementation group: 'org.terasoluna.gfw', name: 'terasoluna-gfw-jodatime', version: '5.7.0.RELEASE'
-    implementation 'com.github.skennedy44:Software_Assignment1:V9'
+    implementation 'com.github.skennedy44:Software_Assignment1:V10'
 }
 
 test {
